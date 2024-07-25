@@ -1,0 +1,62 @@
+
+/* h1 {
+    background-color: rgb(248, 243, 247);
+    margin: 0;
+    color: crimson;
+    margin-left: 20px;
+} */
+#parent {
+    background-color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input{
+    width: 350px;
+    height: 56px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    padding-left: 24px;
+
+}
+input:focus {
+    box-shadow: 8px 8px 8px rgb(69, 69, 69);
+}
+.button{
+    height: 56px;
+    margin-left: 10px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+    
+
+}
+#weather-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    background-color:rgb(255, 0, 0) ;
+    height: 400px;
+    font-size: 2    0px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    color:black;
+    font-size: 30px;
+}
+
+
+
